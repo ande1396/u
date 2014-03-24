@@ -1,6 +1,9 @@
 One::Application.routes.draw do
   
 
+  get "users/index"
+  get "users/new"
+  get "users/create"
   root 'tasks#index'
 
   resources :tasks
